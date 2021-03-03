@@ -1,0 +1,149 @@
+.f-content {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(4, 6, 13);
+}
+
+.f-detail {
+    padding: 0px 10px;
+    display: flex;
+    color: #fff;
+}
+
+.f-detail .movie-info h2 {
+    color: #ccb60e;
+    text-transform: uppercase;
+}
+
+.f-detail .movie-info h5 {
+    color: #a5cccc;
+}
+
+.thumb {
+    width: 35%;
+    position: relative;
+}
+
+.f-detail .thumb img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    border: 1px solid #3f3f3f;
+}
+
+.btn-block {
+    text-align: center;
+}
+
+.btn {
+    padding: 8px 16px;
+    margin: 5px;
+}
+
+.f-detail .movie-info {
+    width: 75%;
+    padding: 5px 10px 5px 20px;
+}
+
+.f-detail .movie-info a {
+    color: #46e1ff;
+}
+
+.f-content .film-content {
+    border: 1px solid #3f3f3f;
+    margin: 15px 10px;
+}
+
+.film-content .f-content-header {
+    border: 1px solid #3f3f3f;
+    color: #10639e;
+    border: 1px solid rebeccapurple;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.film-content .f-content-desc {
+    border: 1px solid #3f3f3f;
+    color: #e6eff5;
+    padding: 10px 15px;
+}
+
+.breadcrumb {
+    background-color: rgb(4, 6, 13);
+    border-bottom: 1px solid #3f3f3f;
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+    color: #b3b30b;
+}
+
+.related-header {
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+
+.related-header span {
+    font-size: 25px;
+    color: #0b94b3;
+    padding-bottom: 5px;
+    border-bottom: 3px dashed #3f3f3f;
+    margin-bottom: 0;
+}
+
+.related-item {
+    padding: 5px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.related-item a {
+    text-decoration: none;
+}
+
+.related-item #rl-name {
+    font-size: 14px;
+}
+
+.related-item #rl-name:hover {
+    color: #fff;
+}
+
+.related-item #rl-name-en {
+    font-size: 12px;
+}
+
+.f-content .item {
+    padding: 3px;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+figure {
+    margin: 0px;
+}
+
+.figure-img {
+    border: 1px solid #3f3f3f;
+}
+
+.figure-caption .fg-name-vi {
+    font-size: 15px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #346eeb;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.figure-caption .fg-name-en {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
